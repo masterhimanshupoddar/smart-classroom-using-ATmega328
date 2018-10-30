@@ -40,7 +40,7 @@ void setup() {
    Serial.print("calibrating sensors ");
     for(int i = 0; i < calibrationTime; i++){
       Serial.print(".");
-      delay(1000);
+      delay(500);
       }
     Serial.println(" done");
     Serial.println("SENSORS ACTIVE");
